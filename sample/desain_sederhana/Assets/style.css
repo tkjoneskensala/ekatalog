@@ -490,6 +490,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
+.block {
+  display: block;
+}
+
 .h-\[50vh\] {
   height: 50vh;
 }
@@ -498,12 +502,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.max-h-\[50vh\] {
+  max-height: 50vh;
+}
+
 .w-4\/5 {
   width: 80%;
 }
 
 .w-auto {
   width: auto;
+}
+
+.list-outside {
+  list-style-position: outside;
 }
 
 .list-decimal {
@@ -540,6 +552,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.indent-4 {
+  text-indent: 1rem;
+}
+
+.indent-8 {
+  text-indent: 2rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -566,6 +586,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {

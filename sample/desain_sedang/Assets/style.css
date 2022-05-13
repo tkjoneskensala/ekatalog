@@ -567,20 +567,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-width: 90%;
 }
 
-.basis-2\/3 {
-  flex-basis: 66.666667%;
-}
-
-.basis-1\/3 {
-  flex-basis: 33.333333%;
-}
-
-.basis-2\/5 {
-  flex-basis: 40%;
+.min-w-full {
+  min-width: 100%;
 }
 
 .basis-3\/5 {
   flex-basis: 60%;
+}
+
+.basis-2\/5 {
+  flex-basis: 40%;
 }
 
 .snap-x {
@@ -658,6 +654,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
@@ -702,20 +703,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-indent: 2rem;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 .font-PTSerif {
   font-family: "PT Serif", serif;
 }
 
-.font-Macondo {
-  font-family: Macondo;
-}
-
 .font-Poppins {
   font-family: Poppins, sans serif;
+}
+
+.font-Macondo {
+  font-family: Macondo;
 }
 
 .text-2xl {
